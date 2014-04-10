@@ -8,7 +8,6 @@ package org.flowforwarding.warp.api.protocol;
  * @author Infoblox Inc.
  *
  */
-public interface IOFMessageRef {
+public interface IOFStructureRef {
    public void add (String name, String value);
-   public void add (String name, IOFStructureRef struct);
 }

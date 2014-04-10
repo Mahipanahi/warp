@@ -9,7 +9,6 @@ package org.flowforwarding.warp.api.protocol;
  *
  */
 public interface IOFProvider {
-   
-   
-
+   public IOFMessageRef buildMessage(String msg);
+   public byte [] encode(IOFMessageRef msg);
 }
